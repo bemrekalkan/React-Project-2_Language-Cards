@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="logo-container">
-      <img className="react-logo" src="{reactLogo}" alt="react-logo" />
+      <img className="react-logo" src={reactLogo} alt="react-logo" />
     </div>
   );
 };
