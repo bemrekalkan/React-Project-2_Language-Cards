@@ -14,7 +14,7 @@ const Item = ({ card }) => {
           <h3 className="card-title">{name}</h3>
         </div>
       ) : (
-        <ul>
+        <ul className="list">
           {options.map((element, index) => {
             return <li key={index}>{element}</li>;
           })}
