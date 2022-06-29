@@ -1,3 +1,4 @@
+import "./Item.css";
 const Item = ({ card }) => {
   const { name, img, options } = card;
 
